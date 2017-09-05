@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_editText"
+            android:layout_width="match_parent"
+            android:layout_height="357dp"
+            android:layout_above="@+id/bt_paste"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_edit_text"
+            android:gravity="left|top"
+            android:inputType="textMultiLine"
+            android:lineSpacingExtra="5dp"
+            android:padding="8dp"
+            android:textColor="#222222"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="30dp">
+
+            <ImageView
+                android:id="@+id/bt_paste"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:padding="10dp"
+                android:src="@drawable/paste"
+                android:text="粘贴"
+                android:textColor="#222222"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/bt_transfer"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:drawablePadding="2dp"
+                android:padding="10dp"
+                android:src="@drawable/voice"
+                android:text="语音~zZ"
+                android:textColor="#222222"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
